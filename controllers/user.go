@@ -5,8 +5,8 @@ import (
 	"encoding/hex"
 
 	"github.com/gin-gonic/gin"
-	"github.com/shadab/avasapi/forms"
-	"github.com/shadab/avasapi/model"
+	"github.com/heroku/avasapi/forms"
+	"github.com/heroku/avasapi/model"
 )
 
 var userModel = new(model.UserModel)
