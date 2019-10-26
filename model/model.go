@@ -3,8 +3,8 @@ package model
 import (
 	"encoding/base64"
 
-	"github.com/heroku/avasapi/db"
-	"github.com/heroku/avasapi/forms"
+	"github.com/fygni/avasapis/db"
+	"github.com/fygni/avasapis/forms"
 
 	"gopkg.in/mgo.v2/bson"
 )

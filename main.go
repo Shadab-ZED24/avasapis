@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/heroku/avasapi/controllers"
+	"github.com/fygni/avasapis/controllers"
 
 	"github.com/gin-gonic/gin"
 )
