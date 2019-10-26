@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/fygni/avasapis/controllers"
+	"controllers"
 
 	"github.com/gin-gonic/gin"
 )

@@ -4,8 +4,8 @@ import (
 	"crypto/md5"
 	"encoding/hex"
 
-	"github.com/fygni/avasapis/forms"
-	"github.com/fygni/avasapis/model"
+	"forms"
+	"model"
 	"github.com/gin-gonic/gin"
 )
 
