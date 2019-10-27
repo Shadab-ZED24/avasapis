@@ -24,9 +24,6 @@
 #   go-tests = true
 #   unused-packages = true
 
-[metadata.heroku]
-  root-package = "github.com/Shadab-ZED24/vendor"
-
 [[constraint]]
   name = "github.com/gin-gonic/gin"
   version = "1.4.0"
@@ -38,3 +35,6 @@
 [prune]
   go-tests = true
   unused-packages = true
+
+[metadata.heroku]
+  root-package = "github.com/Shadab-ZED24/vendor"
