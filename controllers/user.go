@@ -4,8 +4,8 @@ import (
 	"crypto/md5"
 	"encoding/hex"
 
-	"github.com/heroku/avasapis/forms"
-	"github.com/heroku/avasapis/model"
+	"github.com/Shadab-ZED24/avasapis/forms"
+	"github.com/Shadab-ZED24/avasapis/model"
 
 	"github.com/gin-gonic/gin"
 )
