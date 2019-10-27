@@ -3,8 +3,8 @@ package model
 import (
 	"encoding/base64"
 
-	"avasapis/db"
-	"avasapis/forms"
+	"github.com/heroku/avasapis/db"
+	"github.com/heroku/avasapis/forms"
 
 	"gopkg.in/mgo.v2/bson"
 )
@@ -25,7 +25,7 @@ type User struct {
 type UserModel struct{}
 
 var (
-	dbConnect      = db.NewConnection("localhost")
+	dbConnect      = db.NewConnection("mongodb://fygni:root123@ds239858.mlab.com:39858/avas")
 	dbName         = "avas"
 	collectionName = "user"
 )

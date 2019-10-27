@@ -4,9 +4,10 @@ import (
 	"crypto/md5"
 	"encoding/hex"
 
+	"github.com/heroku/avasapis/forms"
+	"github.com/heroku/avasapis/model"
+
 	"github.com/gin-gonic/gin"
-	"avasapis/forms"
-	"avasapis/model"
 )
 
 var userModel = new(model.UserModel)
