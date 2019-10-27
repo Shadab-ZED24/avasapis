@@ -24,18 +24,11 @@
 #   go-tests = true
 #   unused-packages = true
 
-[metadata.heroku]
-  root-package = "github.com/Shadab-ZED24/vendor"
-  go-version = "1.13.1"
-  install = [ "./..." ]
+ignored = []
 
 [[constraint]]
-  name = "github.com/gin-gonic/gin"
-  version = "1.4.0"
-
-[[constraint]]
-  branch = "v2"
-  name = "gopkg.in/mgo.v2"
+  name = "github.com/modern-go/concurrent"
+  version = "1.0.0"
 
 [prune]
   go-tests = true
