@@ -37,4 +37,4 @@
   unused-packages = true
 
 [metadata.heroku]
-  root-package = "github.com/Shadab-ZED24/vendor"
+  root-package = "github.com/Shadab-ZED24/avasapis/vendor"
