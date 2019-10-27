@@ -39,3 +39,8 @@
 [[constraint]]
   name = "github.com/Shadab-ZED24/avasapis/vendor"
   version = "2.0.0"
+
+[metadata.heroku]
+  root-package = "github.com/Shadab-ZED24/avasapis"
+  go-version = "1.12.12"
+  install = [ "./..." ]
