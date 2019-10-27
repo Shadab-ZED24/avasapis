@@ -3,8 +3,8 @@ package model
 import (
 	"encoding/base64"
 
-	"db"
-	"forms"
+	"avasapis/db"
+	"avasapis/forms"
 
 	"gopkg.in/mgo.v2/bson"
 )
